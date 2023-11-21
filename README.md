@@ -16,12 +16,6 @@ The Art Showcase Hub is a dynamic platform crafted for artists seeking to exhibi
   - Discover a myriad of artworks from talented creators.
   - Express appreciation by liking artworks.
 
-- **Categorized Showcase:**
-  - Explore artworks conveniently categorized by themes.
-
-- **Efficient Search Functionality:**
-  - Easily find artworks by name.
-
 - **Likes Tally:**
   - Track the total likes garnered for your artworks.
 
