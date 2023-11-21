@@ -1,0 +1,52 @@
+/* Custom classes for the gradients */
+.custom-gradient-transition {
+  background-image: linear-gradient(145deg, #000, #fff);
+  background-size: 200% 100%;
+  transition: background-position 0.5s;
+}
+
+.custom-gradient-bg {
+  background-image: linear-gradient(25deg, #000, #fff 50%);
+}
+
+/* Specify the gradient animation on hover */
+.custom-gradient-transition:hover {
+  background-position: -100% 0;
+}
+
+.position-relative-delete:hover .delete-button {
+  visibility: visible;
+}
+
+.custom-delete-button {
+  visibility: hidden;
+  position: absolute;
+  top: 15px; /* Adjust top and right values as needed */
+  right: 15px;
+  border: solid 2px #fff;
+  border-radius: 50%;
+  padding: 8px;
+  background-color: #000;
+  transition: visibility 0.3s, transform 0.3s; /* Add a smooth transition */
+}
+
+.position-relative-delete:hover .custom-delete-button {
+  visibility: visible;
+  transform: scale(1.1);
+}
+
+.custom-card:hover {
+  background-image: linear-gradient(to right, #000, #fff);
+  /* You can adjust other styles as needed */
+  color: #fff; /* Text color on hover */
+}
+
+.custom-card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+  color: #000; /* Default text color */
+}
+
+.custom-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
